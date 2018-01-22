@@ -190,10 +190,13 @@ body {
 /* styles for projects */
 
 img {
+	margin: 0 auto 20px auto;
 	display: block;
 	max-width: 60%;
-	margin: 0 auto;
 	height: auto;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+	box-shadow: 3px 3px 5px 6px #a29696;
+	border-radius: 5px;
 }
 
 .project {
@@ -283,7 +286,7 @@ img {
 		flex-flow: row;
 	}
 	.img-container {
-		width: 46%;
+		width: 42%;
     margin: auto;
 	}
 	.project p {
@@ -298,6 +301,7 @@ img {
 		-webkit-box-shadow: 3px 3px 5px 6px #ccc;
 		box-shadow: 3px 3px 5px 6px #a29696;
 		border-radius: 5px;
+
 	}
 	.project-header {
 		height: 60px;
