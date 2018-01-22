@@ -1,0 +1,372 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	color: #555;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong {
+	color: #333;
+}
+
+
+/* navbar for mobile: vertical stacked */
+
+.flexy.active {
+	top: 330px;
+}
+
+.resume-button {
+	display: inline-block;
+	padding: 8px;
+	margin-left: 16px;
+	margin-top: 14px;
+	font-size: 22px;
+	border-radius: 10%x;
+	border-radius: 8px;
+	background-color: #f6a89c;
+}
+
+.resume-button.wide {
+	display: none;
+}
+
+.navynav nav.active {
+	display: block;
+}
+
+.navynav nav {
+	display: none;
+	width: 100%;
+	clear: both;
+}
+
+.navynav nav ul {
+	display: flex;
+	flex-flow: column wrap;
+	width: 100%;
+}
+
+.navynav nav a:hover {
+	background-color: rgb(247, 171, 158);
+	color: white;
+	border-radius: 8px;
+}
+
+.navynav nav li {
+	text-align: center;
+	width: 100%;
+}
+
+.navynav nav ul a {
+	display: block;
+	padding: 10px 10px;
+	background-color: #7f98a0;
+	font-size: 18px;
+}
+
+
+
+
+/* end of navbar for mobile */
+
+.block {
+	padding-bottom: 40px;
+}
+
+p {
+	width: 90%;
+	margin: auto;
+	padding: auto;
+	padding-bottom: 10px;
+	line-height: 1.4;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	background-color: #d4e6e5;
+	font-size: 16px;
+}
+
+.flexy {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 260px;
+}
+
+.material-icons.icon {
+	float: right;
+	margin-right: 20px;
+	font-size: 62px;
+	margin-top: 6px;
+	padding: 12px 12px;
+}
+
+.header {
+	height: 56px;
+	width: 100%;
+}
+
+.block-title {
+	text-align: center;
+}
+
+.hero {
+	color: white;
+	height: 100vh;
+	background: #d4e6e5;
+	background: -webkit-linear-gradient(to top, #e4b2ab, #d4e6e5);
+	background: linear-gradient(to top, #e4b2ab, #d4e6e5);
+}
+
+.name {
+	font-size: 46px;
+	text-align: center;
+	font-weight: 400;
+	color: white;
+}
+
+.title {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 300;
+	font-size: 26px;
+	color: white;
+}
+
+#icon {
+	margin-top: 80px;
+	text-align: center;
+}
+
+.material-icons.arrow {
+	font-size: 46px;
+	font-weight: 600;
+}
+
+.skills {
+	width: 100%;
+}
+
+.skills-icons {
+	margin: auto;
+	width: 96%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.dev-icon {
+	font-size: 70px;
+	padding: 2%;
+	flex-grow: 1;
+	color: #2b2b2b;
+}
+
+/* styles for projects */
+
+img {
+	display: block;
+	max-width: 60%;
+	margin: 0 auto;
+	height: auto;
+}
+
+.project {
+	padding-bottom: 40px;
+}
+
+.proj-title {
+	padding-left: 5px;
+	font-size: 18px;
+}
+
+.project-header {
+	display: flex;
+	justify-content: space-evenly;
+	height: 50px;
+	align-items: center;
+	background-color: #e4b2ab;
+	color: #0D060D;
+	margin-bottom: 16px;
+}
+
+.button-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.project-buttons {
+	text-decoration: none;
+	padding: 14px;
+	display: block;
+	color: #0D060D;
+	text-decoration: underline;
+}
+
+.bright-button {
+	background-color: #81dbd8;
+}
+
+.nav ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	background: -webkit-linear-gradient(to top, #e4b2ab, #c59993);
+	background: linear-gradient(to bottom, #e4b2ab, #c59993);
+	background-size: 100% 100%;
+}
+
+.footer a {
+	display: inherit;
+	padding: 14px;
+	font-size: 32px;
+}
+
+@media screen and (min-width: 580px) {
+	.resume-button {
+		/* display: inline-block; */
+		padding: 8px;
+		margin-left: 16px;
+		margin-top: 26px;
+		height: 44px;
+		font-size: 22px;
+		border-radius: 10%x;
+		border-radius: 8px;
+		background-color: #f6a89c;
+	}
+
+	.resume-button.wide {
+		display: inline-block;
+	}
+
+	.navynav nav {
+		display: flex;
+	}
+	.mobile-menu {
+		display: none;
+	}
+	.project-flexy {
+		display: flex;
+		flex-flow: row;
+	}
+	.img-container {
+		width: 46%;
+    margin: auto;
+	}
+	.project p {
+		width: 50%;
+		margin-right: 10px;
+		margin-top: -6px;
+	}
+	img {
+		max-width: 100%;
+		width: 100%;
+		height: 100%;
+		-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+		box-shadow: 3px 3px 5px 6px #a29696;
+		border-radius: 5px;
+	}
+	.project-header {
+		height: 60px;
+	}
+	.proj-title {
+		font-size: 28px;
+	}
+	.project-buttons {
+		text-decoration: none;
+		padding: 18px;
+		display: block;
+		color: #0D060D;
+		margin-left: 5px;
+		text-decoration: underline;
+		font-size: 22px;
+	}
+	.flexy {
+		width: 480px;
+	}
+	.name {
+		font-size: 72px;
+		text-align: center;
+		font-weight: 600;
+	}
+	.title {
+		font-size: 32px;
+	}
+	.material-icons.arrow {
+		font-size: 60px;
+	}
+	.block-title {
+		font-size: 42px;
+	}
+	p {
+		width: 80%;
+		font-size: 18px;
+	}
+	.footer a {
+		font-size: 52px;
+	}
+	.dev-icon {
+		font-size: 80px;
+	}
+	.navynav nav ul {
+		display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    padding-top: 20px;
+    margin-right: 16px;
+	}
+
+	.navynav nav ul li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+	}
+
+	.navynav nav li {
+    width: 140px;
+    margin-top: 6px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.block.about-me,
+	.block.skills,
+	.block.projects-container {
+		max-width: 850px;
+		margin: auto;
+	}
+}
